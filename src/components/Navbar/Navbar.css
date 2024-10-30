@@ -1,0 +1,49 @@
+*{
+    font-family: 'Reader', sans-serif;
+}
+@font-face {
+    font-family: 'Reader';
+    src: url('https://cdn.prod.website-files.com/63b2f566abde4cad39ba419f/66b9860ff53a504eee5d30bf_reader-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.nav-link{
+    font-family: 'Reader', sans-serif;
+    font-size: .875rem;
+    font-weight: 800;
+}
+.navbar_dropdown-list{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: .75rem;
+    padding: .25rem;
+    min-width: max-content;
+    text-align: left;
+}
+.btnx
+{
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+    background-color: #f230aa;
+
+    text-align: center;
+    border-radius: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+    transition: transform .2s, box-shadow .2s;
+    display: flex;
+    box-shadow: 0 .5rem 1.5rem #0000001a;
+}
+.btnx.second
+{
+    border-color: #f230aa;
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    background-color: #ffffff0d;
+    border: 1px solid  #f230aa;
+    transition: background-color .2s, transform .2s, box-shadow .2s;
+}
